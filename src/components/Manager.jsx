@@ -39,7 +39,7 @@ const Manager = () => {
     passwordRef.current.type = "text";
 
     if (ref.current.src.includes("public/eyecross.png")) {
-      ref.current.src = "public/eye.png";
+      ref.current.src = "/eye.png";
       passwordRef.current.type = "password";
     } else {
       passwordRef.current.type = "text";
