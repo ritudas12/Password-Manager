@@ -7,7 +7,7 @@ const Navbar = () => {
 
         <div className="logo flex gap-1
         font-bold text-white text-2xl">
-            <img className='w-10' src="/public/nav-logo.png" alt="" />
+            <img className='w-10' src="/nav-logo.png" alt="" />
              <span className='text-green-500'></span>
             Keep
             <span className='text-green-500'>In</span>
@@ -21,7 +21,7 @@ const Navbar = () => {
             </li>
         </ul> */}
         <button className='text-white bg-green-600 my-5 rounded-full flex  justify-between items-center'>
-            <img className='invert w-10 p-1' src="public/github.png" alt="github-logo" />
+            <img className='invert w-10 p-1' src="/github.png" alt="github-logo" />
             <span className='font-bold px-2'> Github</span>
            
             </button>
