@@ -43,7 +43,7 @@ const Manager = () => {
       passwordRef.current.type = "password";
     } else {
       passwordRef.current.type = "text";
-      ref.current.src = "public/eyecross.png";
+      ref.current.src = "/eyecross.png";
     }
   };
 
